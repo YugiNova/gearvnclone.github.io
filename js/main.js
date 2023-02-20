@@ -33,7 +33,7 @@ let showProducts = (sectionID) => {
             productsList.innerHTML +=
                 `<div page-id = "${pageNumber}" class="product-card">
                 <div class="product-img">
-                    <img src="../images/Products/${sectionID}${pageNumber}.webp" alt="">
+                    <img src="images/Products/${sectionID}${pageNumber}.webp" alt="">
                     <div class="products-showmore">
                         <a href="#">Click để xem chi tiết</a>
                         <button class="porducts-order">Đặt hàng</button>
@@ -50,7 +50,7 @@ let showProducts = (sectionID) => {
             productsList.innerHTML +=
                 `<div page-id = "${pageNumber}" class="product-card" style="display:none;">
                 <div class="product-img">
-                    <img src="../images/Products/${sectionID}${pageNumber}.webp" alt="">
+                    <img src="images/Products/${sectionID}${pageNumber}.webp" alt="">
                     <div class="products-showmore">
                         <a href="#">Click để xem chi tiết</a>
                         <button class="porducts-order">Đặt hàng</button>
